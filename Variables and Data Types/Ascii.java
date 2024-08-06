@@ -5,8 +5,12 @@ package Variables_and_DataTypes;
 
 public class Ascii {
     public static void main(String[] args) {
-        char ch=97;
+        char ch = 65;
         System.out.println(ch);
+        
+        char num = 'A';
+        System.out.println((int) num);
+
     }
 
 }
